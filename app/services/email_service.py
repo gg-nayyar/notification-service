@@ -9,6 +9,8 @@ EMAIL_USER = os.getenv("EMAIL_USER", "").strip()
 EMAIL_PASS = os.getenv("EMAIL_PASS", "").strip()
 
 def send_email(to_email:str, body:str):
+    print("[DEBUG] Preparing email to:", to_email)
+    print(f"[DEBUG] From: {EMAIL_USER} | Length: {len(EMAIL_USER)}")
     msg = EmailMessage()
     msg.set_content(body)
     msg["Subject"] = "Notification"
