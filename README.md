@@ -1,12 +1,12 @@
 # Notification System
 
-A notification system built with FastAPI, Celery, and Uvicorn. It supports sending notifications via email and SMS.
+A notification system built with FastAPI, Celery, and Uvicorn. It supports sending notifications via email and SMS and in app notifications.
 
 ---
 
 ## Features
 - REST API for sending notifications
-- Asynchronous task processing with Celery
+- Asynchronous task processing with Celery(RabbitMQ)
 - Email and SMS notification services
 - Uvicorn for production server
 
