@@ -130,7 +130,7 @@ This project is already deployed on Render using Uvicorn. You can access the liv
 
 Interactive API docs are available at:
 
-[Swagger UI](https://your-render-app-url.onrender.com/docs)
+[Swagger UI](https://notification-service-api.onrender.com/docs)
 
 ---
 
