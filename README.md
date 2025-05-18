@@ -86,17 +86,17 @@ This project is already deployed on Render using Uvicorn. You can access the liv
 
 ---
 
-<!-- ## Example Input/Output
+## Example Input/Output
 
-### Input Example
+### Input Inapp Messages Example
 
-![Input Example](input_example.png)
+![Input Example](https://github.com/gg-nayyar/notification-service/blob/main/Post%20request.png)
 
-### Output Example
+### Output Inapp Messages Example
 
-![Output Example](output_example.png)
+![Output Example](https://github.com/gg-nayyar/notification-service/blob/main/Post%20response.png)
 
---- -->
+---
 
 ## API Documentation
 
