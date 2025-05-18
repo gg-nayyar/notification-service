@@ -96,6 +96,34 @@ This project is already deployed on Render using Uvicorn. You can access the liv
 
 ![Output Example](https://github.com/gg-nayyar/notification-service/blob/main/Post%20response.png)
 
+### Input Email Example
+
+![Input Example](https://github.com/gg-nayyar/notification-service/blob/main/email%20post.png)
+
+### Output Email Example
+
+![Output Example 1](https://github.com/gg-nayyar/notification-service/blob/main/email%20response.png)
+
+![Output Example 2](https://github.com/gg-nayyar/notification-service/blob/main/mail%20example.jpg)
+
+### Input SMS Example
+
+![Input Example](https://github.com/gg-nayyar/notification-service/blob/main/sms%20post.png)
+
+### Output SMS Example
+
+![Output Example 1](https://github.com/gg-nayyar/notification-service/blob/main/sms%20response.png)
+
+!![Output Example 2](https://github.com/gg-nayyar/notification-service/blob/main/twilio%20example.jpg)
+
+### GET User Request
+
+![Input Example](https://github.com/gg-nayyar/notification-service/blob/main/Get%20request.png)
+
+### GET User Response
+
+!![Output Example](https://github.com/gg-nayyar/notification-service/blob/main/get%20response.png)
+
 ---
 
 ## API Documentation
