@@ -9,6 +9,7 @@ A notification system built with FastAPI, Celery, and Uvicorn. It supports sendi
 - Asynchronous task processing with Celery(RabbitMQ)
 - Email and SMS notification services
 - Uvicorn for production server
+- Can now send mails to multiple emails
 
 > **Note:** The SMS service will work for registered mobile numbers only, as it is a paid service. To register your number for testing, please email: krishsenpai7@gmail.com
 
@@ -85,6 +86,8 @@ This project is already deployed on Render using Uvicorn. You can access the liv
 | GET    | /users/{user_id}/notifications  | Get all notifications for a specific user   |
 
 ---
+
+**Note** Make Sure to check your spam folder.
 
 ## Example Input/Output
 
