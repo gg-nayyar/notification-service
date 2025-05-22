@@ -29,13 +29,15 @@ def create_notification(payload: NotificationRequest):
     elif payload.type == "email":
         if not payload.email:
             raise HTTPException(status_code=400, detail="email is required for email notifications")
-        send_email_task.delay(payload.email, payload.message)
+        for email in payload.email:
+            send_email_task.delay(email, payload.message)
         return {"message": f"Email notification sent successfully to ${payload.email}"}
     
     elif payload.type == "sms":
         if not payload.phone_number:
             raise HTTPException(status_code=400, detail="phone_number is required for SMS notifications")
-        send_sms_task.delay(payload.phone_number, payload.message)
+        for phone_number in payload.phone_number:
+            send_sms_task.delay(phone_number, payload.message)
         return {"message": f"SMS notification sent successfully to ${payload.phone_number}"}
         
 @router.get("/users/{user_id}/notifications")
